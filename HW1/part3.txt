@@ -1,0 +1,10 @@
+Pranshav Thakkar
+GTID: 903079725
+
+
+1. A splitter/joiner can be used to manipulate multi-bit inputs. A splitter can separate the individual bits of an input so that each bit can be accessed and toggled and we can see the effects of toggling each bit. We can also join individual bits from inputs and use that to make various combinations to be toggled.
+
+2. Tunnels are useful because they allow us to easily view the output of a circuit. Complicated circuits can get long and messy and tracking the output while toggling bits can become troublesome. However, using a tunnel allows us to direct the output to a place where we can easily view it without having to go through the entire circuit.
+
+3. Input of 010 : The output is 0 because it is just windy, not windy AND cloudy and the weatherman has not advised us to take an umbrella.
+   Input of 100 : The output is 1 because the weatherman has advised us to take an umbrella.
