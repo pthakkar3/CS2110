@@ -1,0 +1,82 @@
+BitVector.java
+	toPaddedBinaryString: 5.0/5.0
+	size: 5.0/5.0
+	set: 5.0/5.0
+	toggle: 5.0/5.0
+	clear: 5.0/5.0
+	isClear: 5.0/5.0
+	onesCount: 5.0/5.0
+	zerosCount: 5.0/5.0
+	isSet: 5.0/5.0
+Operations.java
+	pack: 0.0/5.0
+		(-1.25) Failed test for method pack with arguments [18, 52, 86, 120]. Expected: 305419896, Actual: 0
+		(-1.25) Failed test for method pack with arguments [202, 206, 190, 239]. Expected: -892420369, Actual: 0
+		(-1.25) Failed test for method pack with arguments [0, 68, 153, 255]. Expected: 4495871, Actual: 0
+		(-1.25) Failed test for method pack with arguments [254, 219, 172, 35]. Expected: -19157981, Actual: 0
+		(-0.0) Violations:
+			Method not implemented
+	xor: 0.0/5.0
+		(-1.25) Failed test for method xor with arguments [16711935, -16711936]. Expected: -1, Actual: 0
+		(-1.25) Failed test for method xor with arguments [-2023406815, 305419896]. Expected: -1789848231, Actual: 0
+		(-1.25) Failed test for method xor with arguments [-1091576147, -1161901314]. Expected: 72422483, Actual: 0
+		(-1.25) Failed test for method xor with arguments [858993459, 1431655765]. Expected: 1717986918, Actual: 0
+		(-0.0) Violations:
+			Method not implemented
+	setByte: 0.0/5.0
+		(-1.25) Failed test for method setByte with arguments [9029, 171, 0]. Expected: 9131, Actual: 0
+		(-1.25) Failed test for method setByte with arguments [591724544, 103, 1]. Expected: 591750912, Actual: 0
+		(-1.25) Failed test for method setByte with arguments [-559038737, 202, 2]. Expected: -557138193, Actual: 0
+		(-1.25) Failed test for method setByte with arguments [-889270257, 208, 3]. Expected: -788606961, Actual: 0
+		(-0.0) Violations:
+			Method not implemented
+	bitRange: 0.0/5.0
+		(-1.25) Failed test for method bitRange with arguments [22136, 0, 8]. Expected: 120, Actual: 0
+		(-1.25) Failed test for method bitRange with arguments [4548489, 8, 8]. Expected: 103, Actual: 0
+		(-1.25) Failed test for method bitRange with arguments [2147483647, 0, 31]. Expected: 2147483647, Actual: 0
+		(-1.25) Failed test for method bitRange with arguments [-1431655766, 7, 9]. Expected: 341, Actual: 0
+		(-0.0) Violations:
+			Method not implemented
+	powerOf2: 0.0/5.0
+		(-0.625) Failed test for method powerOf2 with arguments [16777216]. Expected: true, Actual: false
+		(-0.625) Failed test for method powerOf2 with arguments [128]. Expected: true, Actual: false
+		(-0.625) Failed test for method powerOf2 with arguments [1]. Expected: true, Actual: false
+		(-0.625) Failed test for method powerOf2 with arguments [2097152]. Expected: true, Actual: false
+		(-2.5) Violations:
+			Method not implemented
+	getShort: 0.0/5.0
+		(-1.25) Failed test for method getShort with arguments [-2023406815, 0]. Expected: 17185, Actual: 0
+		(-1.25) Failed test for method getShort with arguments [6048512, 1]. Expected: 92, Actual: 0
+		(-1.25) Failed test for method getShort with arguments [422197335, 0]. Expected: 14423, Actual: 0
+		(-1.25) Failed test for method getShort with arguments [-3481952, 1]. Expected: 65482, Actual: 0
+		(-0.0) Violations:
+			Method not implemented
+Bases.java
+	hexStringToInt: 0.0/5.0
+		(-1.25) Failed test for method hexStringToInt with arguments [28]. Expected: 40, Actual: 0
+		(-1.25) Failed test for method hexStringToInt with arguments [FEDCBA]. Expected: 16702650, Actual: 0
+		(-1.25) Failed test for method hexStringToInt with arguments [7FFFFFFF]. Expected: 2147483647, Actual: 0
+		(-1.25) Violations:
+			Method not implemented
+	binaryStringToInt: 5.0/5.0
+	decimalStringToInt: 0.0/5.0
+		(-1.25) Failed test for method decimalStringToInt with arguments [234]. Expected: 234, Actual: 0
+		(-1.25) Failed test for method decimalStringToInt with arguments [2147483647]. Expected: 2147483647, Actual: 0
+		(-1.25) Failed test for method decimalStringToInt with arguments [101010101]. Expected: 101010101, Actual: 0
+		(-1.25) Violations:
+			Method not implemented
+	intToBinaryString: 0.0/5.0
+		(-1.25) Failed test for method intToBinaryString with arguments [0]. Expected: 0, Actual: 
+		(-1.25) Failed test for method intToBinaryString with arguments [12]. Expected: 1100, Actual: 
+		(-1.25) Failed test for method intToBinaryString with arguments [4321]. Expected: 1000011100001, Actual: 
+		(-1.25) Failed test for method intToBinaryString with arguments [2147483647]. Expected: 1111111111111111111111111111111, Actual: 
+		(-0.0) Violations:
+			Method not implemented
+	intToHexString: 0.0/5.0
+		(-1.25) Failed test for method intToHexString with arguments [0]. Expected: 0, Actual: 
+		(-1.25) Failed test for method intToHexString with arguments [11]. Expected: B, Actual: 
+		(-1.25) Failed test for method intToHexString with arguments [4321]. Expected: 10E1, Actual: 
+		(-1.25) Failed test for method intToHexString with arguments [2147483647]. Expected: 7FFFFFFF, Actual: 
+		(-0.0) Violations:
+			Method not implemented
+Final Grade: 50.0/100.0
